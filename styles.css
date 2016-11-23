@@ -3,7 +3,8 @@
 }
 
 body {
-	font-family: Arial, sans-serif;
+	//font-family: 'Tangerine', cursive;
+	font-family: 'Ovo', serif;
 	font-size: calc(0.5em + 1vw);
 	line-height: 1.5;
 	background-color: #dbb0ff;
