@@ -2,9 +2,12 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--fun-font: font-family: 'Ovo', serif;
+	--wedding-font: font-family: 'Tangerine', cursive;
+}
+
 body {
-	//font-family: 'Tangerine', cursive;
-	font-family: 'Ovo', serif;
 	font-size: calc(0.5em + 1vw);
 	line-height: 1.5;
 	background-color: #dbb0ff;
