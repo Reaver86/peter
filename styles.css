@@ -11,4 +11,10 @@ body {
 	font-size: calc(0.5em + 1vw);
 	line-height: 1.5;
 	background-color: #dbb0ff;
+	margin: 0;
+}
+
+.header_img {
+	width: 100vw;
+	height: 30%;
 }
