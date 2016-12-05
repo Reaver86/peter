@@ -35,3 +35,7 @@ h1 {
 .Fragetext {
 	font-family: var(--fun-font);
 }
+
+.frageForm {
+	font-size: 50px;
+}
