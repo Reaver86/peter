@@ -35,6 +35,7 @@ h1 {
 
 main {
 	margin: 0 20px;
+	height: 30%;
 }
 
 .mentor {
@@ -51,12 +52,19 @@ main {
 	width: 68%;
 	border: 2px solid black;
 	padding: 10px;
+	font-size: 0.9em;
 }
 
 .clearfix::after {
 	display: block;
 	content: " ";
 	clear: both;
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+	
 }
 
 .Fragetext {
