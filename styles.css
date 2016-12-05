@@ -40,3 +40,11 @@ main {
 	float: right;
 	width: 30%;
 }
+
+.Fragetext {
+	font-family: var(--fun-font);
+}
+
+.frageForm {
+	font-size: 50px;
+}
