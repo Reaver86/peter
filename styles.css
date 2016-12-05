@@ -3,8 +3,8 @@
 }
 
 :root {
-	--fun-font: font-family: 'Ovo', serif;
-	--wedding-font: font-family: 'Tangerine', cursive;
+	--fun-font: 'Ovo', serif;
+	--wedding-font: 'Tangerine', cursive;
 }
 
 body {
