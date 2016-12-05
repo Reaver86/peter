@@ -35,40 +35,46 @@ h1 {
 
 main {
 	margin: 0 20px;
-	height: 30%;
+	height: 35%;
 }
 
 .mentor {
 	float: right;
 	width: 30%;
 	margin-top: 80px;
-	margin-right: 5px;
+	margin-right: 1em;
 }
 
 .sprechblase {
 	font-family: var(--fun-font);
 	overflow: hidden;
 	display: inline-block;
-	width: 68%;
+	width: calc(70% - 1.5em);
 	border: 2px solid black;
 	padding: 10px;
 	font-size: 0.9em;
+	border-radius: .5em;
+	margin-bottom: 0;
 }
 
 .clearfix::after {
-	display: block;
 	content: " ";
+	display: block;
 	clear: both;
 }
 
 button {
-	margin: 0 auto;
+	font-family: var(--fun-font);
+	margin: 15px auto;
 	display: block;
-	
+	padding: 1em 4em;
+	background-color: #ab46a4;
+	border: none;
+	border-radius: .5em;
 }
 
-.Fragetext {
-	font-family: var(--fun-font);
+.fragetext-bereich {
+	height: 40vh;
 }
 
 .frageForm {
