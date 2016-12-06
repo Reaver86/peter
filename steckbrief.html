@@ -8,15 +8,20 @@
     <title>Frage1</title>
 </head>
 <body>
+    
+    <form>
+        <label class='frage-label'>Vorname</label>
+        <input class='frage-input' type="text" name="firstname" required>
+    </form>
+    
     <main class='fragetext-bereich'>
         <p class='sprechblase'>Da ich mich schon vorgestellt habe, könntest du mir deinen Vornamen nennen?</p>
         <img class='mentor' src='img/minion_winkend2.png'>
     </main>
-    <form action="steckbrief.html">
-        <label class='frage-label'>Vorname</label>
-        <input class='frage-input' type="text" name="firstname" required>
-        <button type="submit">Weiter</button>
-    </form>
+
+    <footer>
+        <button onclick='window.location.href="Frage1.html"'>Los geht's!</button>
+    </footer>
 
 </body>
 </html>
