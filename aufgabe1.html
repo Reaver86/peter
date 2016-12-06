@@ -6,17 +6,24 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Ovo|Tangerine" rel="stylesheet">
     <title>Aufgabe1</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">
+
+    </script>
 </head>
 <body>
 <main class='fragetext-bereich'>
     <p class='sprechblase'>Finde die Person mit dem kürzesten Rock!</p>
     <img class='mentor' src='img/minion_winkend2.png'>
 </main>
-<form class="frageForm" action="frage1.html">
     <label>Die Person mit dem kürzesten Rock ist:</label>
-    <input type="text" name="answer" required>
-    <button type="submit">Weiter</button>
-</form>
+    <input class="aufgabe-input" type="text" name="answer" required>
+    <button onclick="validate()">Weiter</button>
 
+
+<label id="auflösung-aufgabe1"></label>
+
+<script src='script.js'></script>
 </body>
 </html>
