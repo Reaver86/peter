@@ -77,6 +77,15 @@ button {
 	height: 40vh;
 }
 
-.frageForm {
-	font-size: 50px;
+.frage-input {
+	display: block;
+	margin: 0 auto 50px;
+	width: 70%;
+	height: 3em;
+}
+
+.frage-label {
+	display: block;
+	margin-left: 1em;
+	font-size: 2rem;
 }
