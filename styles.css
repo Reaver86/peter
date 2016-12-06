@@ -9,6 +9,7 @@
 
 body {
 	font-size: calc(1em + 1vw);
+	font-family: var(--fun-font);
 	line-height: 1.5;
 	background-color: #dbb0ff;
 	margin: 0;
@@ -88,4 +89,9 @@ button {
 	display: block;
 	margin-left: 1em;
 	font-size: 2rem;
+}
+
+.steckbrief-title {
+	text-align: center;
+	font-size: 2.5em;
 }
