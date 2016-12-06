@@ -6,7 +6,8 @@
 			}
 		);
 
-	$( ".frage-input" ).val(params.firstname) ;
+	$( ".frage-input1" ).val(params.firstname);
+	$( ".frage-input2" ).val(params.farbe);
 
 }());
 

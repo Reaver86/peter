@@ -6,16 +6,23 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Ovo|Tangerine" rel="stylesheet">
     <title>Frage1</title>
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
 </head>
 <body>
+
     <main class='fragetext-bereich'>
-        <p class='sprechblase'>Da ich mich schon vorgestellt habe, könntest du mir deinen Vornamen nennen?</p>
+        <p class='sprechblase'>Verrate mir bitte noch deine Lieblingsfarbe!</p>
         <img class='mentor' src='img/minion_winkend2.png'>
     </main>
-    <form action="frage2.html">
-        <label class='frage-label'>Vorname</label>
-        <input class='frage-input' type="text" name='firstname' required>
+    <form action="steckbrief.html">
+        <label class='frage-label'>Lieblingsfarbe</label>
+        <input class='frage-input' type="text" name='farbe' required>
         <button type="submit">Weiter</button>
     </form>
+    
+    <script src='crossfrage.js'></script>
 </body>
 </html>
