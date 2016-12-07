@@ -14,7 +14,7 @@
 var validate = function () {
 
     var korrekteAntwort = "peter";
-    var antwort = $( ".aufgabe-input").val().toLowerCase();
+    var antwort = $( ".frage-input").val().toLowerCase();
 
     if (antwort === korrekteAntwort) {
         $('#auflösung-aufgabe1').text("Hurra!!!");
