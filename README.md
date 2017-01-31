@@ -1,5 +1,7 @@
 # Peter - Prototyp
 
+Starte die index.html in einem beliebigen Browser um loszulegen...
+
 ### Grundgedanke der Anwendung
 Kennenlern App für größere Events, z.B. Hochzeit
 
